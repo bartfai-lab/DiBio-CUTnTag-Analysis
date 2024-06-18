@@ -59,10 +59,6 @@ mkdir -p ${projPath}/${filename}/alignment/bedgraph
 mkdir -p ${projPath}/${filename}/alignment/bigWig
 
 
-
-#add indexing step potentially
-############################PLACEHOLDER##############################################
-
 #map with bowtie2 for samples build correctly under projPath and filename
 
 #check if bowtie2 has run before
@@ -172,10 +168,6 @@ fi
 
 ########################################################################################################
 
-#works until here
-
-########################################################################################################
-
 #remove apicoplast and mitrochondrial reads
 
 #extract header from bam file
@@ -218,9 +210,7 @@ rm $projPath/alignment/bam/${filename}_bowtie2.mapped.sorted.qualityScore$mapQua
 rm $projPath/alignment/bam/${filename}_bowtie2.mapped.qualityScore$mapQuality.sam.tmp
 
 
-################################################################################
-#works until here
-################################################################################
+######################################################################################
 
 #generate bigwigs
 if [ "$bigWig" == TRUE ]; then
