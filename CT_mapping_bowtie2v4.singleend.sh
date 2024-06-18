@@ -7,7 +7,6 @@ genome=""
 duplicates=TRUE
 mapQuality=""
 bigWig=TRUE
-exChr="PFC10_API_IRAB M76611"
 MIT="PFC10_API_IRAB"
 API="M76611"
 
@@ -29,9 +28,6 @@ while getopts ":n:g:p:d:b:x:q:" opt; do
       ;;
     b)
       bigWig=$OPTARG
-      ;;
-    x)
-      exChr=$OPTARG
       ;;
     q)
       mapQuality=$OPTARG
