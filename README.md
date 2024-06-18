@@ -22,4 +22,4 @@ To get started with our log2 ratio track generation script (CT_log2_ratio_bins.s
 
 If you need help with analysis of CUT&Tag data, we would like to refer you to the very comprehensive tutorial from Zheng Y. et al https://yezhengstat.github.io/CUTTag_tutorial/ which has heavily influenced our scripts.
 
-This project is part of a publication and will therefore not be regularly updated.
+This project is part of a publication and will therefore not be regularly updated. Code presented is written by Jonas Gockel.
