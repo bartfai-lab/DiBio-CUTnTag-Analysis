@@ -20,7 +20,7 @@ while getopts ":p:a:b:c:g:n:" opt; do
       file2=$OPTARG
       ;;
     c)
-      file2=$OPTARG
+      file3=$OPTARG
       ;;
     g)
       genomeSizes=$OPTARG
