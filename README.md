@@ -1,6 +1,6 @@
 DiBioCUT&Tag Analysis
 
-This project aims to provide the exact code used for the analysis of our next generation sequencing data in our publication "CUT&Tag and DiBioCUT&Tag enable investigation of the AT-rich and dynamic epigenome of Plasmodium falciparum from low input samples"
+This project aims to provide the exact code used for the analysis of our next generation sequencing data in our publication "CUT&Tag and DiBioCUT&Tag enable investigation of the AT-rich epigenome of Plasmodium falciparum from low input samples".
 
 If you want to recreate our datasets or apply our scripts to your own data this repository can provide you with the recources you need. 
 CT_mapping_bowtie2v4.sh is a script to generate bigWig / bedgraph files for visualisation of CUT&Tag datasets on e.g UCSC genome browser from paired end sequencing data, CT_mapping_bowtie2v4.singleend.sh is the same script for single end data)
