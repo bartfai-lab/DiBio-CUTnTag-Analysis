@@ -20,7 +20,7 @@ To get started with our log2 ratio track generation script (CT_log2_ratio_bins.s
 2. run the script: bash /path/to/CT_log2_calc_binv2.sh -c /path/to/cutntag.bw  -b /path/to/background.bw -s desired_binsize -o /path/to/output -n outputfile_name
 
 
-To get started with our bedgraph averagining script (BDG_averagesv2.sh):
+To get started with our bedgraph averaging script (BDG_averagesv2.sh):
 1. make sure you have bedtools installed and already generated bedgraph files for the datasets you want to combine/average (e.g by running CT_mapping_bowtie2v4.sh)
 2. run the script: bash /path/to/BDG_averagesv1.sh -g /path/to/chrNameLength.txt -p /path/to/project_directory -a /path/to/file1.bedgraph -b /path/to/file2.bedgraph -c /path/to/file3.bedgraph -n output_name 
 
